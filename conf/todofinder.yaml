@@ -1,0 +1,16 @@
+# Following values maybe used : "tcp", "tcp4", "tcp6", "unix" or "unixpacket"
+network: tcp4
+listenOn: :8080
+enableTls: false
+# These are the SSL key and certificate used when running in tls mode.
+# Make sure you override these keys in production by the following environment variables:
+#   TODOFINDER_SERVER_KEYFILE
+#   TODOFINDER_SERVER_CERTFILE
+keyFile:
+certFile:
+# Following values maybe used : stderr, stdout, file, discard -
+# If discards, it discards logs to /dev/null
+logOutput: stdout
+# if file is used for output, log file path should be provided using logFile
+logFile: todofinder.log
+logLevel: info
