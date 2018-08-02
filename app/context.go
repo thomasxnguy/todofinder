@@ -4,7 +4,7 @@ import (
 	"time"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	. "github.com/m-rec/14d4017ddb43a7c0cb3ab4be9ea18cbc74ee15ab/todofinder/http"
+	. "github.com/thomasxnguy/todofinder/http"
 )
 
 // RequestContext contains the application-specific information that are carried around in a request.

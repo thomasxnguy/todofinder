@@ -1,8 +1,8 @@
 package app_test
 
 import (
-	. "github.com/m-rec/14d4017ddb43a7c0cb3ab4be9ea18cbc74ee15ab/todofinder/app"
-	. "github.com/m-rec/14d4017ddb43a7c0cb3ab4be9ea18cbc74ee15ab/todofinder/http"
+	. "github.com/thomasxnguy/todofinder/app"
+	. "github.com/thomasxnguy/todofinder/http"
 	. "github.com/onsi/ginkgo"
 	"github.com/valyala/fasthttp"
 	. "github.com/onsi/gomega"
